@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Simonetta:wght@900&display=swap');
+/*
+font-family: 'Simonetta', cursive;
+font-family: 'Roboto', sans-serif;
+*/
+
+* {
+    margin: 0;
+    border: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.logo-cherrystore {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15px;
+}
+
+#imagem-logo-cherrystore {
+    width: 114px;
+    margin: 0 7px;
+}
+
+#texto-logo-cherrystore {
+    margin: 0 7px;
+    font-family: 'Simonetta', cursive;
+    color: #FF659F;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 900;
+}
+
+.main-menu {
+    border-bottom: 1px solid #000000;
+
+}
+
+.page-menu {
+    padding: 15px;
+}
+
+.menu-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu-buttons-itens {
+    margin: 0 25px;
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+}
+
+.pagina-atual {
+    font-weight: 700;
+}
+
+#menu-buttons-inicio:hover {
+    text-decoration: underline;
+}
+
+#menu-buttons-produtos:hover {
+    text-decoration: underline;
+}
+
+#menu-buttons-sobre:hover {
+    text-decoration: underline;
+}
