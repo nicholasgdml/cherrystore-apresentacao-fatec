@@ -1,0 +1,23 @@
+.img-slides-carrossel {
+    width: 100vw;
+}
+
+.conteudo-main-page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.texto-cherrystore {
+    width: min(80vw, 467px);
+    text-align: justify;
+    margin: 10px 25px;
+    color: #47525E;
+    font-family: Roboto;
+    font-size: 18px;
+}
+
+.carrossel-produtos-destaques {
+    margin:  10px 20px;
+}
