@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&display=swap');
+/* 
+    font-family: 'Montserrat', sans-serif - 600 500;
+    
+*/
+
+* {
+    box-sizing: border-box;
+}
+
+.quem-somos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15px;
+}
+
+.texto-quem-somos {
+    width: 55vw;
+}
+
+#titulo-quem-somos {
+    color: #FF2D84;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 48px;
+    text-align: left;
+}
+
+#paragrafo-quem-somos {
+    width: 70%;
+        color: #47525E;
+        font-family: Montserrat;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 24px;
+        text-align: justify;
+}
+
+.logocherrystore-quem-somos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 40vw;
+}
+
+.biografia-samy {
+    margin: 30px auto;
+    width: 60vw;
+    background-color: #FF2D84;
+    border-radius: 15px;
+    padding: 32px 45px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.texto-samy {
+    background-color: #FF67A0;
+    border-radius: 15px;
+    width: 55%;
+    height: 350px;
+}
