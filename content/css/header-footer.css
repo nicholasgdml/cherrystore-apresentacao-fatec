@@ -9,6 +9,9 @@ font-family: 'Roboto', sans-serif;
     src: url("../fonts/IntriqueScript.ttf");
 }
 
+body {
+    overflow: auto;
+}
 /* Header */
 .cabecalho {
     border-bottom: 1px solid black;
@@ -76,6 +79,7 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
+    border-top: 1px solid rgba(0,0,0,0.25);
 }
 
 .logo-rodape {
@@ -90,7 +94,7 @@ a {
 }
 
 .copyright-rodape {
-
+    
 }
 
 #texto-copyright {

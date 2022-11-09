@@ -5,7 +5,7 @@ font-family: 'Roboto', sans-serif;
 */
 
 .carrossel-principal img {
-    width: 100vw;
+    width: 100%;
 }
 
 .texto-produtos {
@@ -17,13 +17,13 @@ font-family: 'Roboto', sans-serif;
 }
 
 .texto-cherrystore {
-    width: max(320px, 40vw);
-    color: #47525E;
+    width: max(320px, 35vw);
+    color: #1a1a1a;
     font-family: 'Roboto', sans-serif; 
     font-size: 18px;
     text-align: justify;
 }
 
 .img-carrossel-produtos {
-    width: max(360px, 38vw);
+    width: max(360px, 32vw);
 }
