@@ -1,10 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+/* 
+font-family: 'Roboto', sans-serif; 
+400, 700
+*/
+
+.carrossel-principal img {
+    width: 100vw;
+}
+
 .texto-produtos {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
+    margin: 15px;
 }
 
 .texto-cherrystore {
     width: 35vw;
+        color: #47525E;
+        font-family: 'Roboto', sans-serif; 
+        font-size: 18px;
+        text-align: justify;
 }
