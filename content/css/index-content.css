@@ -1,0 +1,10 @@
+.texto-produtos {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.texto-cherrystore {
+    width: 35vw;
+}

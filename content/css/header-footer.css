@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+/* 
+font-family: 'Roboto', sans-serif; 
+400, 700
+*/
+
+@font-face {
+    font-family: 'intriqueScript';
+    src: url("../fonts/IntriqueScript.ttf");
+}
+
+/* Header */
+.cabecalho {
+    border-bottom: 1px solid black;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+.logo-cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 15px;
+}
+
+.img-logo-cabecalho {
+    width: 110px;
+    height: 110px;
+}
+
+.text-logo-cabecalho {
+    font-family: 'intriqueScript';
+    font-size: 60px;
+    color: #FF659F;
+    line-height: 1;
+}
+
+.navigation-bar-cabecalho ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navigation-bar-cabecalho li {
+    margin: 0 18px;
+    font-size: 26px;   
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+.item-atual {
+    font-weight: 700;
+}
+
+.navigation-item-index:hover {
+    color: #FF659F;
+    text-decoration:  underline;
+}
+
+.navigation-item-produtos:hover {
+    color: #FF659F;
+    text-decoration:  underline;
+}
+
+.navigation-item-sobre:hover {
+    color: #FF659F;
+    text-decoration:  underline;
+}
+
+/* Footer */
+.rodape-site {
+    border-top: 1px solid black;
+}
+
+.rodape-rs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 45, 132, 0.15);
+}
+
+.icons-rodape {
+    width: 28px;
+    margin: 8px 5px;
+}
+
+.rodape-cp {
+    text-align: center;
+    background-color: rgba(255, 45, 132, 0.62);
+}
