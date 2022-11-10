@@ -83,7 +83,23 @@ a {
 }
 
 .logo-rodape {
-    /* fazer dps no canva */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    margin: 10px;
+}
+
+#logo-cherrystore-rodape {
+    width: 32px;
+}
+
+#texto-logo-cherrystore-rodape {
+    font-family: 'intriqueScript';
+    font-size: 24px;
+    color: #FF659F;
+    text-align: left;
+    margin: 0;
 }
 
 .icons-rodape {
@@ -91,10 +107,6 @@ a {
     box-shadow: 3px 3px 15px 0px rgba(0,0,0,0.30);
     width: 24px;
     margin: 8px 5px;
-}
-
-.copyright-rodape {
-    
 }
 
 #texto-copyright {

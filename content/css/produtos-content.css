@@ -1,6 +1,96 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
 /* 
 font-family: 'Roboto', sans-serif; 
-400, 700
+400, 700, 900
 */
 
+* {
+  padding: 0;
+}
+
+.filtro-produtos {
+  border-bottom: 1px solid black;
+  margin: 15px 0;
+}
+
+.filtros {
+  font-style: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 19px;
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  color: #47525E;
+  margin: 0
+}
+
+.filtros li {
+  margin: 0 8px;
+}
+
+#text-filtros {
+  font-style: 'Roboto', sans-serif;
+  font-weight: 900;
+  font-family: Roboto;
+  font-size: 26px;
+  text-align: left;
+}
+
+.filtro-atual {
+  font-style: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 19px;
+  text-decoration: underline;
+}
+
+#filtro-todos:hover {
+color: #FF659F;
+}
+
+#filtro-bucket:hover {
+color: #FF659F;
+}
+
+#filtro-camisetas:hover {
+color: #FF659F;
+}
+
+#filtro-moletons:hover {
+color: #FF659F;
+}
+
+.card-produtos {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  grid-gap: 20px;
+  max-width: 80vw;
+  margin: 0 auto 30px;
+}
+
+.produtos {
+  position: relative;
+}
+
+.imagem-produto {
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+}
+
+.titulo-produto {
+  color: #47525E;
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 18px;
+  text-align: center;
+}
+
+.preco-produto {
+  color: #47525E;
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 20px;
+  text-align: center;
+}
