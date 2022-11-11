@@ -11,6 +11,7 @@ font-family: 'Roboto', sans-serif;
 
 body {
     overflow: auto;
+    font-size: 16px;
 }
 /* Header */
 .cabecalho {
@@ -36,7 +37,7 @@ a {
 
 .text-logo-cabecalho {
     font-family: 'intriqueScript';
-    font-size: 60px;
+    font-size: 4.3em;
     color: #FF659F;
     line-height: 1;
 }
@@ -50,7 +51,7 @@ a {
 
 .navigation-bar-cabecalho li {
     margin: 0 18px;
-    font-size: 26px;   
+    font-size: 1.8em;   
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
 }
@@ -96,7 +97,7 @@ a {
 
 #texto-logo-cherrystore-rodape {
     font-family: 'intriqueScript';
-    font-size: 24px;
+    font-size: 2em;
     color: #FF659F;
     text-align: left;
     margin: 0;
@@ -112,3 +113,28 @@ a {
 #texto-copyright {
     color: #999999;
 }
+
+/* 
+
+320px — 480px: dispositivos móveis
+481px — 768px: iPads, tablets
+769px — 1024px: telas pequenas, laptops
+1025px — 1200px: desktops, telas grandes
+1201px e acima —  telas muito grandes, TVs
+
+*/
+
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    body {
+        font-size: 14px;
+    }
+}
+
+@media all and (min-width: 480px) and (max-width: 768px) { 
+    body {
+        font-size: 12px;
+    }
+}
+
+@media all and (max-width: 480px) { }
