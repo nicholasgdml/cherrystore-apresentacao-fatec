@@ -9,21 +9,21 @@ font-family: 'Roboto', sans-serif;
 }
 
 .texto-produtos {
-    display: flex;
+    /*display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: space-evenly;
-    margin: 24px 15px;
+    justify-content: space-evenly;*/
+    margin: 24px auto;
 }
 
 .texto-cherrystore {
-    width: max(320px, 35vw);
     color: #1a1a1a;
     font-family: 'Roboto', sans-serif; 
-    font-size: 18px;
+    font-size: 22px;
     text-align: justify;
 }
 
 .img-carrossel-produtos {
-    width: max(360px, 32vw);
+    /*width: min(450px, 75vw);
+    height: auto;*/
 }
