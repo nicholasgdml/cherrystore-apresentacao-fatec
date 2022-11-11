@@ -4,6 +4,12 @@ font-family: 'Roboto', sans-serif;
 400, 700, 900
 */
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&display=swap');
+/* 
+    font-family: 'Montserrat', sans-serif - 600 500;
+    
+*/
+
 .return-nav {
   margin: 5px 10px;
   display: flex;
@@ -32,7 +38,9 @@ font-family: 'Roboto', sans-serif;
 .produto-anuncio {
   display: flex;
   align-items: center;
-  justify-items: center;
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 1px solid black;
 }
 
 .produto-img {
@@ -40,4 +48,35 @@ font-family: 'Roboto', sans-serif;
   max-height: 450px;
   width: auto;
   height: auto;
+}
+
+.produto-text {
+
+}
+
+.nome-item {
+  color: #47525E;
+  font-family: Roboto;
+  font-size: 32px;
+  text-align: center;
+}
+
+.preco-item {
+  color: #47525E;
+  font-family: Roboto;
+  font-size: 46px;
+  text-align: center;
+}
+
+.descricao-produto {
+
+}
+
+.descricao-produto h1 {
+  color: #FF2D84;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 38px;
+  line-height: 62px;
+  text-align: center;
 }
