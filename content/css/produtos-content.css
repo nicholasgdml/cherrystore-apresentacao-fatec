@@ -9,7 +9,7 @@ font-family: 'Roboto', sans-serif;
 }
 
 body {
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .dropdown-item:active {
@@ -28,7 +28,7 @@ body {
 .filtros {
   font-style: 'Roboto', sans-serif;
   font-weight: 700;
-  font-size: 1.20em;
+  font-size: 1.6em;
   color: #47525E;
 }
 
@@ -40,26 +40,33 @@ body {
   font-style: 'Roboto', sans-serif;
   font-weight: 900;
   font-family: Roboto;
-  font-size: 1.2em;
+  color: #47525E;
+  font-size: 2em;
 }
 
 .filtro-atual {
   font-style: 'Roboto', sans-serif;
   font-weight: 700;
-  font-size: 1.20em;
+  font-size: 1.6em;
   text-decoration: underline;
 }
 
 .card-produtos {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-  grid-gap: 25px;
+  grid-gap: 35px;
   max-width: 80vw;
   margin: 0 auto 30px;
 }
 
 .produtos {
   position: relative;
+}
+
+.imagem-produto-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .imagem-produto {
@@ -73,7 +80,7 @@ body {
   color: #47525E;
   font-family: Roboto;
   font-weight: 400;
-  font-size: 1.13em;
+  font-size: 1.8em;
   text-align: center;
 }
 
@@ -81,25 +88,30 @@ body {
   color: #47525E;
   font-family: Roboto;
   font-weight: 700;
-  font-size: 1.6em;
-  line-height: 1.25em;
+  font-size: 2em;
+  line-height: 1.55em;
   text-align: center;
 }
 
 @media screen and (min-width: 769px) and (max-width: 1024px) {
   body {
-      font-size: 18px;
+      font-size: 14px;
   }
 }
 
 @media all and (min-width: 481px) and (max-width: 768px) { 
   body {
-      font-size: 14px;
+      font-size: 12px;
   }
 }
 
 @media all and (max-width: 480px) {
   body {
-      font-size: 12px;
+      font-size: 10px;
+  }
+
+  .imagem-produto {
+    max-width: 70%;
+    max-height: 70%;
   }
 }

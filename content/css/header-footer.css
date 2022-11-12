@@ -47,10 +47,10 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 20px;
 }
 
 .navigation-bar-cabecalho li {
-    margin: 0 18px;
     font-size: 1.8em;   
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
