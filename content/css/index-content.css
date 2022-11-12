@@ -8,7 +8,7 @@ body {
     font-size: 16px;
 }
 
-.carrossel-principal img {
+.imagem-banner-principal {
     width: 100%;
 }
 
@@ -17,7 +17,7 @@ body {
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    gap: max(15px, 3vw);
+    gap: max(15px, 10vw);
     margin: 20px;
 }
 
@@ -26,7 +26,8 @@ body {
     font-family: 'Roboto', sans-serif; 
     font-size: 1.64em;
     text-align: justify;
-    width: min(550px, 80vw);
+    text-indent: 10px;
+    width: min(550px, 70vw);
 }
 
 .img-carrossel-produtos {

@@ -28,8 +28,14 @@
         </nav>
     </header>
     
-    <section class="carrossel-principal">
-        <img src="content/images/index-content/1.png" alt="">
+    <section class="banner-principal">
+        <picture>
+            <source srcset="content/images/index-content/index-banner-w480.png" media="(max-width: 480px)">
+            <source srcset="content/images/index-content/index-banner-w768.png" media="(max-width: 768px)">
+            <source srcset="content/images/index-content/index-banner-w1024.png" media="(max-width: 1024px)">
+            <source srcset="content/images/index-content/index-banner-w1024.png" media="(min-width: 1025px)">
+            <img class="imagem-banner-principal" src="content/images/index-content/index-banner.png" alt="Imagem com a logo da Cherry Store">
+        </picture>
     </section>
     <section class="texto-produtos">
         <div class="texto-cherrystore">
@@ -38,7 +44,6 @@
         <div class="carrossel-produtos">
             <img class="img-carrossel-produtos" src="content/images/index-content/samy.cherry.png" alt="">
         </div>
-
     </section>
         
 
