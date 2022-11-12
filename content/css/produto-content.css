@@ -82,24 +82,34 @@ font-family: 'Roboto', sans-serif;
 }
 
 .descricao-produto {
-margin: 20px 0;
+  margin: 20px auto;
 }
 
 .descricao-produto h1 {
   color: #FF2D84;
   font-family: 'Montserrat', sans-serif;
-  font-weight: 700;
-  font-size: 38px;
-  line-height: 62px;
+  font-weight: 900;
+  font-size: 26px;
   text-align: center;
 }
 
-.descricao-produto p {
+.descricao-produto {
   color: #47525E;
   font-family: Montserrat;
-  font-size: 26px;
-  line-height: 33px;
+  font-weight: 400;
+  font-size: 18px;
   width: min(960px, 80vw);
   text-align: justify;
   margin: 0 auto;
 }
+
+.descricao-produto p {
+  text-align: center;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.descricao-produto li {
+  line-height: 30px;
+}
+
