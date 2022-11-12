@@ -4,26 +4,49 @@ font-family: 'Roboto', sans-serif;
 400, 700
 */
 
+body {
+    font-size: 18px;
+}
+
 .carrossel-principal img {
     width: 100%;
 }
 
 .texto-produtos {
-    /*display: flex;
-    flex-wrap: wrap;
+    display: flex;
     align-items: center;
-    justify-content: space-evenly;*/
-    margin: 24px auto;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: max(15px, 3vw);
+    margin: 20px;
 }
 
 .texto-cherrystore {
     color: #1a1a1a;
     font-family: 'Roboto', sans-serif; 
-    font-size: 22px;
+    font-size: 1.45em;
     text-align: justify;
+    width: min(550px, 80vw);
 }
 
 .img-carrossel-produtos {
-    /*width: min(450px, 75vw);
-    height: auto;*/
+    width: min(450px, 65vw);
 }
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    body {
+        font-size: 16px;
+    }
+}
+
+@media all and (min-width: 481px) and (max-width: 768px) { 
+    body {
+        font-size: 14px;
+    }
+}
+
+@media all and (max-width: 480px) {
+    body {
+        font-size: 12px;
+    }
+ }

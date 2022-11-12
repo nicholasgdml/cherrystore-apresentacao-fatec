@@ -8,17 +8,23 @@ font-family: 'Roboto', sans-serif;
   padding: 0;
 }
 
+body {
+  font-size: 18px;
+}
+
 .filtro-produtos {
   border-bottom: 1px solid black;
   margin: 15px 0;
+  color: #47525E;
 }
 
 .filtros {
   font-style: 'Roboto', sans-serif;
   font-weight: 700;
-  font-size: 19px;
+  font-size: 1.20em;
   display: flex;
   align-items: center;
+  justify-content: center;
   list-style-type: none;
   color: #47525E;
   margin: 0
@@ -32,14 +38,14 @@ font-family: 'Roboto', sans-serif;
   font-style: 'Roboto', sans-serif;
   font-weight: 900;
   font-family: Roboto;
-  font-size: 26px;
+  font-size: 1.5em;
   text-align: left;
 }
 
 .filtro-atual {
   font-style: 'Roboto', sans-serif;
   font-weight: 700;
-  font-size: 19px;
+  font-size: 1.20em;
   text-decoration: underline;
 }
 
@@ -61,8 +67,8 @@ color: #FF659F;
 
 .card-produtos {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-  grid-gap: 20px;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-gap: 25px;
   max-width: 80vw;
   margin: 0 auto 30px;
 }
@@ -82,7 +88,7 @@ color: #FF659F;
   color: #47525E;
   font-family: Roboto;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 1.13em;
   text-align: center;
 }
 
@@ -90,7 +96,25 @@ color: #FF659F;
   color: #47525E;
   font-family: Roboto;
   font-weight: 700;
-  font-size: 26px;
-  line-height: 20px;
+  font-size: 1.6em;
+  line-height: 1.25em;
   text-align: center;
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  body {
+      font-size: 18px;
+  }
+}
+
+@media all and (min-width: 481px) and (max-width: 768px) { 
+  body {
+      font-size: 14px;
+  }
+}
+
+@media all and (max-width: 480px) {
+  body {
+      font-size: 12px;
+  }
 }
