@@ -32,15 +32,18 @@
         <header class="banner-produtos">
             <div style="width: 100vw; height: 350px; background-color: gray;"></div>
         </header>
-        <nav class="filtro-produtos">
-            <ul class="filtros">
-                <li id="text-filtros">Filtros:</li>
-                <a href="produtos.html"><li id="filtro-todos">Todos (9)</li></a>
-                <a href="produtos-bucket.html"><li id="filtro-bucket">Bucket Hat (3)</li></a>
-                <a href="produtos-camisetas.html"><li id="filtro-camisetas">Camisetas (3)</li></a>
-                <a href="produtos-moletons.html"><li class="filtro-atual" id="filtro-moletons">Moletons (3)</li></a>
+        <nav class="filtro-produtos dropend">
+            <a class="btn dropdown-toggle" id="text-filtros" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Filtros
+            </a>
+          
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item filtros" href="./produtos.html">Todos (6)</a></li>
+              <li><a class="dropdown-item filtros" href="./produtos-bucket.html">Bucket Hats (2)</a></li>
+              <li><a class="dropdown-item filtros" href="./produtos-camisetas.html">Camisetas (2)</a></li>
+              <li><a class="dropdown-item filtros filtro-atual" href="./produtos-moletons.html">Moletons (2)</a></li>
             </ul>
-        </nav>
+          </nav>
         <section class="card-produtos">
             <a href="produtos/produto-template.html">
                 <div class="produto">
