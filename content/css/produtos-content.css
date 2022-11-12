@@ -80,7 +80,7 @@ body {
   color: #47525E;
   font-family: Roboto;
   font-weight: 400;
-  font-size: 1.8em;
+  font-size: 1.4em;
   text-align: center;
 }
 
@@ -102,6 +102,11 @@ body {
 @media all and (min-width: 481px) and (max-width: 768px) { 
   body {
       font-size: 12px;
+  }
+
+  .imagem-produto {
+    max-width: 80%;
+    max-height: 80%;
   }
 }
 
