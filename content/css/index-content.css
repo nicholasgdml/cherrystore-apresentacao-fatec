@@ -31,7 +31,8 @@ body {
 }
 
 .img-carrossel-produtos {
-    width: min(450px, 65vw);
+    width: min(500px, 65vw);
+    border-radius: 25px;
 }
 
 @media screen and (min-width: 769px) and (max-width: 1024px) {
