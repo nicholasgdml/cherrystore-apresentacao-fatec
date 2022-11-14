@@ -39,6 +39,7 @@ font-family: 'Roboto', sans-serif;
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-wrap: wrap;
   gap: 30px;
   padding: 15px;
   border-bottom: 1px solid black;
@@ -47,15 +48,19 @@ font-family: 'Roboto', sans-serif;
 .produto-img {
   max-width: 450px;
   max-height: 450px;
-  width: auto;
-  height: auto;
+  width: 100%;
+  height: 100%;
   border-radius: 15px;
+}
+
+.produto-text {
+  max-width: min(550px, 80%);
 }
 
 .nome-item {
   color: #47525E;
   font-family: Roboto;
-  font-size: 32px;
+  font-size: 28px;
   text-align: center;
 }
 
