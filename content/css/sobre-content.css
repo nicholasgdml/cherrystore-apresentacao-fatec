@@ -8,62 +8,108 @@
     box-sizing: border-box;
 }
 
-.quem-somos {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 15px;
+body {
+    font-size: 16px;
 }
 
 .texto-quem-somos {
-    width: 55vw;
+    margin: 0 auto;
+    width: 70vw;
 }
 
 #titulo-quem-somos {
     color: #FF2D84;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
-    font-size: 48px;
+    font-size: 3em;
     text-align: left;
 }
 
 #paragrafo-quem-somos {
-    width: 70%;
-        color: #47525E;
-        font-family: Montserrat;
-        font-size: 20px;
-        font-weight: 600;
-        line-height: 24px;
-        text-align: justify;
-}
-
-.logocherrystore-quem-somos {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 40vw;
+    color: #47525E;
+    font-family: Montserrat;
+    font-size: 1.25em;
+    font-weight: 600;
+    line-height: 1.5;
+    text-align: justify;
+    text-indent: 1.2em;
 }
 
 .biografia-samy {
-    margin: 30px auto;
-    width: 60vw;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 15px;
+    margin: 0 auto 30px;
     background-color: #FF2D84;
     border-radius: 15px;
     padding: 32px 45px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    max-width: 88vw;
 }
 
 .texto-samy {
     background-color: #FF67A0;
     border-radius: 15px;
     padding: 10px;
-    width: 55%;
-    height: 350px;
     color: #FFFFFF;
     font-family: Montserrat;
-    font-size: 20px;
+    font-size: 1.25em;
     text-align: left;
+    width: min(550px, 98%);
 }
+
+.imagem-samy {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imagem-samy img {
+    height: 450px;
+    border-radius: 15px;
+}
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    body {
+        font-size: 16px;
+    }
+
+    .imagem-samy img {
+        width: 60%;
+        height: auto;
+        border-radius: 15px;
+    }
+}
+
+@media all and (min-width: 481px) and (max-width: 768px) { 
+    body {
+        font-size: 14px;
+    }
+
+    #titulo-quem-somos {
+        text-align: center;
+    }
+    
+    .imagem-samy img {
+        width: 80%;
+        height: auto;
+        border-radius: 15px;
+    }
+}
+
+@media all and (max-width: 480px) {
+    body {
+        font-size: 12px;
+    }
+
+    #titulo-quem-somos {
+        text-align: center;
+    }
+
+    .imagem-samy img {
+        width: 80%;
+        height: auto;
+        border-radius: 15px;
+    }
+ }
+
