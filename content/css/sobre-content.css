@@ -118,6 +118,7 @@ body {
         width: 100vw;
         margin: 0 auto;
         padding: 16px 22.5px;
+        border-radius: 0;
     }
 
     .texto-samy {
