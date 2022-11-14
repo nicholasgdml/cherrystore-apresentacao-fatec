@@ -20,6 +20,10 @@ body {
   background-color: #ff659f;
 }
 
+.dropdown-item:hover {
+  background-color: #ff659f;
+}
+
 .filtro-produtos {
   border-bottom: 1px solid #7E55F3;
   margin: 10px 30px;
@@ -32,7 +36,7 @@ body {
 .filtros {
   font-style: 'Roboto', sans-serif;
   font-weight: 700;
-  font-size: 1.6em;
+  font-size: 1.2em;
   color: #47525E;
 }
 
@@ -45,13 +49,13 @@ body {
   font-weight: 900;
   font-family: Roboto;
   color: #47525E;
-  font-size: 2em;
+  font-size: 1.6em;
 }
 
 .filtro-atual {
   font-style: 'Roboto', sans-serif;
   font-weight: 700;
-  font-size: 1.6em;
+  font-size: 1.2em;
   text-decoration: underline;
 }
 
