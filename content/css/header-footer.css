@@ -53,6 +53,8 @@ a:hover {
     align-items: center;
     justify-content: center;
     gap: 20px;
+    text-align: center;
+    padding-left: 0;
 }
 
 .navigation-bar-cabecalho li {
