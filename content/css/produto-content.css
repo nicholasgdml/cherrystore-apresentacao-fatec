@@ -49,6 +49,7 @@ font-family: 'Roboto', sans-serif;
   max-height: 450px;
   width: auto;
   height: auto;
+  border-radius: 15px;
 }
 
 .nome-item {

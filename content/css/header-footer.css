@@ -22,6 +22,11 @@ a {
     text-decoration: none;
     color: black;
 }
+
+a:hover {
+    color: none;
+}
+
 .logo-cabecalho {
     display: flex;
     align-items: center;
@@ -111,6 +116,10 @@ a {
 }
 
 #texto-copyright {
+    color: #999999;
+}
+
+.nicholas-ig {
     color: #999999;
 }
 
