@@ -69,6 +69,7 @@ body {
     height: 450px;
     border-radius: 15px;
 }
+
 @media screen and (min-width: 769px) and (max-width: 1024px) {
     body {
         font-size: 16px;
@@ -110,6 +111,18 @@ body {
         width: 80%;
         height: auto;
         border-radius: 15px;
+    }
+
+    .biografia-samy {
+        max-width: 100vw;
+        width: 100vw;
+        margin: 0 auto;
+        padding: 16px 22.5px;
+    }
+
+    .texto-samy {
+        max-width: 100vw;
+        width: 90vw;
     }
  }
 

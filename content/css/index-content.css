@@ -30,14 +30,13 @@ body {
 .texto-cherrystore {
     color: #1a1a1a;
     font-family: 'Space Mono', monospace;
-    font-size: 1.5em;
+    font-size: 1.45em;
     text-align: center;
-    text-indent: 1.2em;
-    width: min(550px, 70vw);
+    width: min(550px, 90vw);
 }
 
 .img-carrossel-produtos {
-    width: min(500px, 65vw);
+    width: min(550px, 80vw);
     border-radius: 25px;
 }
 
@@ -64,5 +63,9 @@ body {
 @media all and (max-width: 480px) {
     body {
         font-size: 12px;
+    }
+
+    .texto-cherrystore {
+        width: 100%;
     }
  }
