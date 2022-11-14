@@ -4,9 +4,9 @@ font-family: 'Roboto', sans-serif;
 400, 700
 */
 
-@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap');
-/*
-font-family: 'Space Mono', monospace;
+@import url('https://fonts.googleapis.com/css2?family=Cardo:wght@700&display=swap');
+/* 
+font-family: 'Cardo', serif;
 700
 */
 
@@ -29,7 +29,8 @@ body {
 
 .texto-cherrystore {
     color: #1a1a1a;
-    font-family: 'Space Mono', monospace;
+    font-family: 'Cardo', serif;
+    font-weight: 700;
     font-size: 1.45em;
     text-align: center;
     width: min(550px, 90vw);
