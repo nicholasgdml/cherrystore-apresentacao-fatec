@@ -4,6 +4,12 @@ font-family: 'Roboto', sans-serif;
 400, 700
 */
 
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap');
+/*
+font-family: 'Space Mono', monospace;
+700
+*/
+
 body {
     font-size: 16px;
 }
@@ -15,24 +21,32 @@ body {
 .texto-produtos {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
     flex-wrap: wrap;
-    gap: max(15px, 10vw);
+    gap: 15px;
     margin: 20px;
 }
 
 .texto-cherrystore {
     color: #1a1a1a;
-    font-family: 'Roboto', sans-serif; 
-    font-size: 1.64em;
-    text-align: justify;
-    text-indent: 10px;
+    font-family: 'Space Mono', monospace;
+    font-size: 1.5em;
+    text-align: center;
+    text-indent: 1.2em;
     width: min(550px, 70vw);
 }
 
 .img-carrossel-produtos {
     width: min(500px, 65vw);
     border-radius: 25px;
+}
+
+.produto-destaque {
+    text-decoration: underline;
+}
+
+.produto-destaque:hover {
+    color: #ff659f;
 }
 
 @media screen and (min-width: 769px) and (max-width: 1024px) {
