@@ -36,8 +36,12 @@ body {
     width: min(550px, 90vw);
 }
 
-.img-carrossel-produtos {
+.carrossel-produtos {
     width: min(550px, 80vw);
+}
+
+.img-carrossel-produtos {
+    width: 100%;
     border-radius: 25px;
 }
 
