@@ -116,7 +116,7 @@ font-family: 'Roboto', sans-serif;
 }
 
 /* Modal */
-#produto-img {
+#modal-img {
   cursor: pointer;
   transition: 0.3s;
 }

@@ -64,6 +64,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+
 }
 
 .imagem-samy img {
@@ -71,9 +72,25 @@ body {
     border-radius: 15px;
 }
 
+#ig-samy {
+    padding: 0;
+    color: #FFFFFF;
+    font-family: Montserrat;
+    font-size: 1.25rem;
+}
+
+#ig-samy:hover {
+    color: #5988FF;
+    text-decoration: underline;
+}
+
 @media screen and (min-width: 769px) and (max-width: 1024px) {
     body {
         font-size: 16px;
+    }
+    
+    .image-samy {
+        max-height: none;
     }
 
     .imagem-samy img {
@@ -92,6 +109,10 @@ body {
         text-align: center;
     }
     
+    .image-samy {
+        max-height: none;
+    }
+
     .imagem-samy img {
         width: 80%;
         height: auto;
@@ -106,6 +127,10 @@ body {
 
     #titulo-quem-somos {
         text-align: center;
+    }
+
+    .image-samy {
+        max-height: none;
     }
 
     .imagem-samy img {
